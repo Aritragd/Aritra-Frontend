@@ -75,7 +75,7 @@ const Blogs = () => {
             return (
               <div className="blog-item blog-hidden" key={index}>
                 <h1>
-                  <a href={blog.href} target='_blank'>{blog.title}</a>
+                  <a href={blog.href} target='_blank' rel='noopener noreferrer'>{blog.title}</a>
                 </h1>
                 <p>{blog.date}</p>
               </div>
