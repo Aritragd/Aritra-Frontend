@@ -6,6 +6,7 @@
     font-family: 'Raleway', sans-serif;
     color: #000000;
     scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }
 
 .container{
@@ -52,4 +53,8 @@
     * {
         font-size: 14px;
     }
+}
+
+.white-padding-bottom{
+    padding-bottom: 100px;
 }

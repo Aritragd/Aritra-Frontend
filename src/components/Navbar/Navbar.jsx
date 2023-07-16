@@ -12,7 +12,7 @@ const Navbar = () => {
       const projectsSection = document.getElementById('projects');
       const contactSection = document.getElementById('contact');
 
-      const scrollPosition = window.scrollY + 60;
+      const scrollPosition = window.scrollY + 130;
       
       if (
         scrollPosition < aboutSection.offsetTop
@@ -59,9 +59,27 @@ const Navbar = () => {
     }
   }
 
+  const [navbarColor, setNavbarColor] = useState('')
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const threshold = 200;
+
+      if(scrollPosition > threshold){
+        setNavbarColor('navbar-colored');
+      } else {
+        setNavbarColor('');
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
 
   return (
-    <div className="navbar">
+    <div className={`navbar ${navbarColor}`}>
       <div className="navbar-content container">
         <div className="navbar-name">
           Aritra Ghosh Dastidar

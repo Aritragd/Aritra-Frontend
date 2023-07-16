@@ -6,6 +6,12 @@
     height: 70px;
     width: 100%;
     z-index: 999;
+    transition: .3s ease-in-out;
+}
+
+.navbar-colored{
+    background-color: #4b87fd;
+    transition: .3s ease-in-out;
 }
 
 .navbar-content{

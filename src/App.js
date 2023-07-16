@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <section id="home"><Home /></section>
+      <section id="home"><Home /><div className="white-padding-bottom"></div></section>
       <section id="about"><About /></section>
       <section id="blogs"><Blogs /></section>
       <section id="projects"><Projects /></section>
