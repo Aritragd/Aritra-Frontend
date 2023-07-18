@@ -81,7 +81,7 @@ const Navbar = () => {
   return (
     <div className={`navbar ${navbarColor}`}>
       <div className="navbar-content container">
-        <div className="navbar-name">
+        <div className="navbar-name title">
           Aritra Ghosh Dastidar
         </div> 
         <div className="nav-links">

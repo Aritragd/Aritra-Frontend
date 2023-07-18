@@ -12,8 +12,8 @@ const Home = () => {
       <div className="container hidden">
         <div className="home-grid-container">
           <div className="left-grid grid-item">
-            <h1>Hi</h1>
-            <p>Aritra Ghosh Dastidar</p>
+            <h1>Meet</h1>
+            <h2>Aritra Ghosh Dastidar</h2>
           </div>
           <div className="right-grid grid-item home-image">
             <div className="circle-bg"></div>

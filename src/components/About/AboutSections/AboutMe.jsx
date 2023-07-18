@@ -1,6 +1,9 @@
 import React from 'react'
+import rightObserver from '../../../utils/RightObserver'
 
 const AboutMe = () => {
+
+  rightObserver()
 
   const AboutMe = [
     { item: 'I have cleared the ICAR AIEEA -UG examination {Indian Council of Agriculture Research (ICAR) All India Entrance Examination (AIEEA) Under Graduate (UG)} securing a rank of AIR -1313.' },
@@ -17,7 +20,7 @@ const AboutMe = () => {
       <div className="aboutme-content">
         {AboutMe.map((aboutme, index) => {
           return (
-            <div className="aboutme-item" key={index}>
+            <div className="aboutme-item right-hidden" key={index}>
               <p>{aboutme.item}</p>
             </div>
           )

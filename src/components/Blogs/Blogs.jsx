@@ -15,55 +15,6 @@ const Blogs = () => {
     { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
     { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
     { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
-    { title: "ড্রাগন ফলের বাজার ও চাষ পদ্ধতি", href: "https://www.amaderbharat.com/dragon-fruit-market-and-cultivation-methods/", date: '2023-1-1'},
   ]
 
 
@@ -73,7 +24,7 @@ const Blogs = () => {
         <div className="blog-grid-container">
           {allBlogs.map((blog, index) => {
             return (
-              <div className="blog-item blog-hidden" key={index}>
+              <div className="blog-item left-hidden" key={index}>
                 <h1>
                   <a href={blog.href} target='_blank' rel='noopener noreferrer'>{blog.title}</a>
                 </h1>

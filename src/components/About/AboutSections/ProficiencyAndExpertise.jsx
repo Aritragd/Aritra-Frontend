@@ -1,6 +1,9 @@
 import React from 'react'
+import rightObserver from '../../../utils/RightObserver'
 
 const ProficiencyAndExpertise = () => {
+
+  rightObserver()
 
   const Expertise = [
     { item: 'Fluent in Communicating in English, Hindi and Bengali' },
@@ -19,7 +22,7 @@ const ProficiencyAndExpertise = () => {
       <div className="proficiency-and-expertise-content">
         {Expertise.map((expertise, index) => {
           return (
-            <div className="proficiency-and-expertise-item" key={index}>
+            <div className="proficiency-and-expertise-item right-hidden" key={index}>
               <p>{expertise.item}</p>
             </div>
           )

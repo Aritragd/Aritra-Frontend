@@ -11,10 +11,10 @@ function App() {
     <div className="App">
       <Navbar />
       <section id="home"><Home /><div className="white-padding-bottom"></div></section>
-      <section id="about"><About /></section>
-      <section id="blogs"><Blogs /></section>
-      <section id="projects"><Projects /></section>
-      <section id="contact"><Contact /></section>
+      <section id="about"><About /><div className="white-padding-bottom"></div></section>
+      <section id="blogs"><Blogs /><div className="white-padding-bottom"></div></section>
+      <section id="projects"><Projects /><div className="white-padding-bottom"></div></section>
+      <section id="contact"><Contact /><div className="white-padding-bottom"></div></section>
     </div>
   );
 }

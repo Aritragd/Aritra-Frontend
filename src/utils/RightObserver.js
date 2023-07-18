@@ -6,16 +6,15 @@ const useIntersectionObserver = (callback, threshold, rootMargin) => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        } 
-        else {
-          entry.target.classList.remove('visible');
+          entry.target.classList.add('right-visible');
+        } else {
+          entry.target.classList.remove('right-visible');
         }
       });
-    }, { threshold: 1,
-         rootMargin :'0px 0px 100px 0px' });
+    }, { threshold: 0,
+         rootMargin :'100px 0px -10px 0px' })
 
-    const hiddenElements = document.querySelectorAll('.hidden');
+    const hiddenElements = document.querySelectorAll('.right-hidden');
     hiddenElements.forEach((element) => observer.observe(element));
 
     return () => {

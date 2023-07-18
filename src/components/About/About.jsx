@@ -12,7 +12,7 @@ import AboutScroll from './AboutScroll'
 const About = () => {
   return (
     <div className='About'>
-      <div className="container content">
+      <div className="container">
         <div className="about-grid-container">
           <div className="aboutScroll grid-item-1">
             <AboutScroll />

@@ -1,6 +1,9 @@
 import React from 'react'
+import rightObserver from '../../../utils/RightObserver'
 
 const CoCurricularActivities = () => {
+
+  rightObserver()
 
   const Activities = [
     { item : 'Indology' },
@@ -20,7 +23,7 @@ const CoCurricularActivities = () => {
       <div className="co-curricular-activities-content">
         {Activities.map((item, index) => {
           return (
-            <div className="co-curricular-activities-content-item" key={index}>
+            <div className="co-curricular-activities-content-item right-hidden" key={index}>
               <p>{item.item}</p>
             </div>
           )

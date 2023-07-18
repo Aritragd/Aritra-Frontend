@@ -1,6 +1,9 @@
 import React from 'react'
+import rightObserver from '../../../utils/RightObserver'
 
 const RecentAwardsCertification = () => {
+
+  rightObserver()
 
   const Awards = [
     { topic: "International",
@@ -18,8 +21,8 @@ const RecentAwardsCertification = () => {
         {Awards.map((item, index) => {
           return (
             <div className="recent-awards-certification-content-item" key={index}>
-              <h1>{item.topic}</h1>
-              <p>{item.description}</p>
+              <h1 className='right-hidden'>{item.topic}</h1>
+              <p className='right-hidden'>{item.description}</p>
             </div>
           )
         })}

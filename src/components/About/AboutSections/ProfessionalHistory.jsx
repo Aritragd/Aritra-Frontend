@@ -1,6 +1,9 @@
 import React from 'react'
+import rightObserver from '../../../utils/RightObserver'
 
 const ProfessionalHistory = () => {
+
+  rightObserver()
 
   const Professional = [
     {
@@ -17,7 +20,7 @@ const ProfessionalHistory = () => {
     },
     {
       topic: 'Subject Matter Expert',
-      description: "Have worked for Biju's as an SME Content developer in CNE ASSOCIATES."
+      description: "Have worked for Byju's as an SME Content developer in CNE ASSOCIATES."
     },
     {
       topic: 'Subject Matter Expert',
@@ -36,8 +39,8 @@ const ProfessionalHistory = () => {
         {Professional.map((item, index) => {
           return (
             <div className="professional-history-content-item" key={index}>
-              <h1>{item.topic}</h1>
-              <p>{item.description}</p>
+              <h1 className='right-hidden'>{item.topic}</h1>
+              <p className='right-hidden'>{item.description}</p>
             </div>
           )
         })}

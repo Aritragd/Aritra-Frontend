@@ -1,6 +1,9 @@
 import React from 'react'
+import rightObserver from '../../../utils/RightObserver'
 
 const Education = () => {
+
+  rightObserver()
 
   const Educations = [
     {
@@ -20,8 +23,8 @@ const Education = () => {
         {Educations.map((edu, index) => {
           return(
             <div className="education-item" key={index}>
-              <h1>{edu.institution}</h1>
-              <p>{edu.name}</p>
+              <h1 className='right-hidden'>{edu.institution}</h1>
+              <p className='right-hidden'>{edu.name}</p>
             </div>
           )
         })}

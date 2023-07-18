@@ -1,6 +1,9 @@
 import React from 'react'
+import rightObserver from '../../../utils/RightObserver'
 
 const AcademicSynopsis = () => {
+
+  rightObserver()
 
   const Academic = [
     {
@@ -32,8 +35,8 @@ const AcademicSynopsis = () => {
         {Academic.map((item, index) => {
           return (
             <div className="academic-synopsis-content-item" key={index}>
-              <h1>{item.head}</h1>
-              <p>{item.description}</p>
+              <h1 className='right-hidden'>{item.head}</h1>
+              <p className='right-hidden'>{item.description}</p>
             </div>
           )
         })}
