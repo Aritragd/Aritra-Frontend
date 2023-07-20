@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import './Observer.css'; // Import the CSS file
 
-const useIntersectionObserver = (callback, threshold, rootMargin) => {
+const useIntersectionObserver = (callback) => {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -11,8 +11,7 @@ const useIntersectionObserver = (callback, threshold, rootMargin) => {
           entry.target.classList.remove('left-visible');
         }
       });
-    }, { threshold: 1,
-         rootMargin :'70px 0px -70px 0px' });
+    });
 
     const hiddenElements = document.querySelectorAll('.left-hidden');
     hiddenElements.forEach((element) => observer.observe(element));
@@ -20,7 +19,7 @@ const useIntersectionObserver = (callback, threshold, rootMargin) => {
     return () => {
       hiddenElements.forEach((element) => observer.unobserve(element));
     };
-  }, [threshold, rootMargin]); // Include threshold in the dependency array
+  }); // Include threshold in the dependency array
 
   useEffect(() => {
     if (typeof callback === 'function') {
