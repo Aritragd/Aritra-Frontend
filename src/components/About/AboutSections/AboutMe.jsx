@@ -16,7 +16,7 @@ const AboutMe = () => {
 
   return (
     <div className="AboutMe">
-      <div className="title">About Me</div>
+      <div className="title">About</div>
       <div className="aboutme-content">
         {AboutMe.map((aboutme, index) => {
           return (

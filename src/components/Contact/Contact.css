@@ -1,0 +1,31 @@
+.contact{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* Set the height to 100vh to take up the entire viewport height */
+    background-color: #00005e;
+    z-index: -1;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container h1,
+.contact-container h2,
+.contact-container h3
+{
+    color: #fff;
+    text-align: center;
+}
+
+.contact-container a h3{
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}

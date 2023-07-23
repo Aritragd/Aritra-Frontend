@@ -16,6 +16,13 @@ import GoatAstami from '../../assets/blog-project-images/goat-astami.jpeg'
 import RassPurnima from '../../assets/blog-project-images/rass-purnima.jpg'
 import Hemonto from '../../assets/blog-project-images/hemonto.jpg'
 import Silchar from '../../assets/blog-project-images/Silchar.jpg'
+import BipinChandraPal from '../../assets/blog-project-images/bipin-chandra-pal.jpg'
+import Jcb from '../../assets/blog-project-images/Jagadish-Chandra-Bose.jpg'
+import Bm from '../../assets/blog-project-images/Bharat-Mata.jpg'
+import rp from '../../assets/blog-project-images/rajendra-prashad.jpeg'
+import hoB from '../../assets/blog-project-images/hoB.jpg'
+import cpujo from '../../assets/blog-project-images/chhath_puja.avif'
+
 
 const Blogs = () => {
 
@@ -37,6 +44,13 @@ const Blogs = () => {
     { img: RassPurnima ,title: "মানসমঞ্চে রাস-পূর্ণিমা  - অরিত্র ঘোষ দস্তিদার এবং কল্যাণ চক্রবর্তী -", href: "http://ritambangla.com/religion/ras-purnima-at-mansamanche/", date: '2022-11-8'},
     { img: Hemonto ,title: "Story : হেমন্তের মৃত্যুচেতনা : লিখছেন অরিত্র ঘোষ দস্তিদার ও কল্যাণ চক্রবর্তী ", href: " https://deshersamay.com/story-হেমন্তের-মৃত্যুচেতনা-ল/", date: '2022-11-10'},
     { img: Silchar ,title: "শিলচর, অসম থেকে প্রকাশিত বহুল প্রচারিত সংবাদপত্র 'গতি দৈনিক' পত্রিকায় প্রকাশিত অরিত্র ঘোষ দস্তিদার এবং ড. কল্যাণ চক্রবর্তীর প্রবন্ধ গোষ্ঠাষ্টমী বা গোপাষ্টমীর কথা। ১৩ ই নভেম্বর, ২০২২, চতুর্থ পাতা।", href: "https://gatidainik.in/13-11-22/epaper.html", date: '2022-11-13'},
+    { img: BipinChandraPal ,title: "লাল-বাল-পাল, এই ত্রয়ী ব্রিটিশ-বিরোধী ইতিহাসে অমোচ্য নাম। তাঁর শিক্ষা-দর্শন নিয়ে লিখলেন অরিত্র ঘোষ দস্তিদার এবং কল্যাণ চক্রবর্তী ।", href: "http://ritambangla.com/with-news/philosophy-of-education-by-bipinchandra-pal/", date: '2022-11-23'},
+    { img: BipinChandraPal ,title: " অরিত্র ঘোষ দস্তিদার এবং কল্যাণ চক্রবর্তী র কলমে স্বাধীনতা সংগ্রামী বিপিনচন্দ্র পাল ।  অসম থেকে প্রকাশিত জনপ্রিয় বাংলা দৈনিক।", href: "https://gatidainik.in/24-11-22/epaper.html", date: '2022-11-24'},
+    { img: Jcb ,title: "পোস্টেজ স্ট্যাম্প ও কারেন্সি নোটে জগদীশচন্দ্র । লিখেছেন অরিত্র ঘোষ দস্তিদার । ", href: "https://indobanglatimes.in/2022/11/30/%e0%a6%aa%e0%a7%8b%e0%a6%b8%e0%a7%8d%e0%a6%9f%e0%a7%87%e0%a6%9c-%e0%a6%b8%e0%a7%8d%e0%a6%9f%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%ae%e0%a7%8d%e0%a6%aa-%e0%a6%93-%e0%a6%95%e0%a6%be%e0%a6%b0%e0%a7%87/", date: '2022-11-24'},
+    { img: Bm ,title: "অবনীন্দ্রনাথ অঙ্কিত ‘ভারতমাতা’ সে যুগে শিল্পান্দোলনের দার্শনিক ভিত গড়ে দিয়েছিল। অবনীন্দ্রনাথ অঙ্কিত 'ভারতমাতা' সে যুগে", href: "https://indobanglatimes.in/2022/12/01/%e0%a6%85%e0%a6%ac%e0%a6%a8%e0%a7%80%e0%a6%a8%e0%a7%8d%e0%a6%a6%e0%a7%8d%e0%a6%b0%e0%a6%a8%e0%a6%be%e0%a6%a5-%e0%a6%85%e0%a6%99%e0%a7%8d%e0%a6%95%e0%a6%bf%e0%a6%a4-%e0%a6%ad%e0%a6%be%e0%a6%b0/", date: '2022-11-24'},
+    { img: rp ,title: "জন্মদিনে (৩ রা ডিসেম্বর) শ্রদ্ধা –রাজেন্দ্র প্রসাদের রাজনৈতিক হাতেখড়ি কলকাতায়, জাতীয় শিক্ষা আন্দোলনে গুরু পেলেন সতীশচন্দ্রকে।", href: "https://ritambangla.com/editorial/tribute-on-his-birthday-december-3rd-rajendra-prasads-political-career-in-kolkata-satish-chandra-got-a-guru-in-the-national-education-movement/", date: '2022-12-03'},
+    { img: hoB ,title: "“The History of Bangal” : ইতিহাস-উদাসীন বাঙালির চেতনা জাগান রমেশচন্দ্র মজুমদার, তাই তাঁকে ছুঁড়ে ফেলতেও দেরি করে নি ষড়যন্ত্রীরা ", href: "https://deshersamay.com/the-history-of-bangal-ইতিহাস-উদাসীন-বাঙালি/", date: '2022-12-04'},
+    { img: cpujo ,title: "অন্ধকার ভেঙে আলোয় ফেরার উৎসব ছটপূজা। লিখলেন অরিত্র ঘোষ দস্তিদার এবং কল্যাণ চক্রবর্তী। ছবি আঁকলেন শীর্ষ আচার্য। ছবি তুললেন তীর্থরাজ রায়। ", href: "https://www.amaderbharat.com/chhat-puja-is-the-festival-of-breaking-the-darkness-and-returning-to-the-light/", date: '2022-11-30'},
   ]
 
 

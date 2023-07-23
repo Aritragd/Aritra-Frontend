@@ -75,7 +75,7 @@ const AboutScroll = () => {
 
   return (
     <div className="about-links">
-      <a href="#AboutMe" className={activeAbout === 'AboutMe' ? 'active' : ''} onClick={() => scrollToSection('AboutMe')} >About Me</a>
+      <a href="#AboutMe" className={activeAbout === 'AboutMe' ? 'active' : ''} onClick={() => scrollToSection('AboutMe')} >About</a>
       <a href="#Education" className={activeAbout === 'Education' ? 'active' : ''} onClick={() => scrollToSection('Education')} >Education</a>
       <a href="#ProficiencyAndExpertise" className={activeAbout === 'ProficiencyAndExpertise' ? 'active' : ''} onClick={() => scrollToSection('ProficiencyAndExpertise')} >Proficiency And Expertise</a>
       <a href="#ProfessionalHistory" className={activeAbout === 'ProfessionalHistory' ? 'active' : ''} onClick={() => scrollToSection('ProfessionalHistory')} >Professional History</a>

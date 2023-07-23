@@ -14,7 +14,7 @@ function App() {
       <section id="about"><About /><div className="white-padding-bottom"></div></section>
       <section id="blogs"><Blogs /><div className="white-padding-bottom"></div></section>
       <section id="projects"><Projects /><div className="white-padding-bottom"></div></section>
-      <section id="contact"><Contact /><div className="white-padding-bottom"></div></section>
+      <section id="contact"><Contact /></section>
     </div>
   );
 }
