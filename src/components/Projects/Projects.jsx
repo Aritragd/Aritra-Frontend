@@ -14,6 +14,7 @@ const Projects = () => {
 
   const allProjects = [
     { img: kpk ,title: "BOOK: “কৃষি,পরিবেশ ও কৃষ্টির অন্তর্জগৎ” ড. কল্যাণ চক্রবর্তী ও অরিত্র ঘোষ দস্তিদারের বই প্রকাশ", href: "https://deshersamay.com/book-কৃষিপরিবেশ-ও-কৃষ্টির-অন/", date: '2023-2-16'},
+    { img: kpk ,title: "BOOK: “কৃষি,পরিবেশ ও কৃষ্টির অন্তর্জগৎ” ড. কল্যাণ চক্রবর্তী ও অরিত্র ঘোষ দস্তিদারের বই প্রকাশ", href: "https://deshersamay.com/book-কৃষিপরিবেশ-ও-কৃষ্টির-অন/", date: '2023-2-16'},
     { img: bthu ,title: "From Bisuddha to Hindu unity. A detailed landscape drawn by Aritra Ghosh Dastidar and panel.", href: "https://youtu.be/-wobUYP1vhg", date: '2023-2-16'},
   ]
 
